@@ -1,0 +1,167 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+% symbols like \Telefon, \Mobilefone, \Letter and \Email
+\RequirePackage{marvosym}
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\name{Ricardo M. Vilchis} % Your name
+%\address{123 Broadway \\ City, State 12345} % Your address
+\address{\Letter \   {\bf r}@rvilchis.com \\ \ \Mobilefone \ (+52) 55-4217-0422 } % Your phone number and email
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%  PERSONAL DATA
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Datos personales.}
+
+    Idiomas: Inglés [Intermedio | Reading, listening ]
+
+    \begin{tabular}{l c r}
+        \parbox{0.5\textwidth}{
+            \begin{itemize}
+                \item Domicilio: Miguel Hidalgo, México, D.F.
+            \end{itemize}
+        } &
+        \parbox{0.4\textwidth}{
+            \begin{itemize}
+                \item Edad: 27 - Soltero
+                \item Pasaporte: Sí
+            \end{itemize}
+        }
+    \end{tabular}
+    \\
+\end{rSection}
+%------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%  Specialitys
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Habilidades especializadas.}
+
+    \begin{tabular}{l c r}
+        \parbox{0.5\textwidth}{
+            \begin{itemize}
+                \item Python
+                \item Javascript
+                \item HTML, XML
+                \item CSS
+                \item MySQL
+                \item PostgreSQL
+                \item Apache HTTP Server
+                \item Nginx
+            \end{itemize}
+        } &
+        \parbox{0.4\textwidth}{
+            \begin{itemize}
+                \item Plone
+                \item Django
+                \item Pyramid
+                \item Backbone.js
+                \item RequireJS
+                \item Linux (Debian, RHEL)
+                \item Git, Mercurial
+            \end{itemize}
+        }
+    \end{tabular}
+    \\
+\end{rSection}
+%------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Experiencia}
+
+\begin{rSubsection}{UTEL University. }{Marzo 2014 - Actual}{Web Developer}{México, D.F.}
+    \item Implementación de sincronización de sistema de control escolar con aula virtual (Django-Moodle)
+    \item Implementación de sistema de pagos con PayU.
+    \item Migración y adaptación de datos de sistema escolar al sistema de admisiones. Consistió en la unión de dos bases de datos (MySQL) y dos aplicaciones Django en una sola.
+    \item Implementé sistema de autenticación por terceros con OAuth2 (Facebook, Google y YAHOO).
+\end{rSubsection}
+%------------------------------------------------
+\begin{rSubsection}{Alfaomega Grupo Editor. }{Agosto  2008 - Marzo 2014}{Web Developer}{México, D.F.}
+    \item Desarrollé, diseñé e implementé aplicación {\em Balanced Score Card} para evaluación de personal. \\
+        Tecnologías usadas: Django (south, xadmin, Django REST framework), PostgreSQL, Javascript ( RequireJS, Backbone, JQuery ).
+    \item Sugerí y supervicé el desarrollo de una interfaz de captura de datos más accesible para CRM (Vtiger). Usando REST Services y Backbone.js.
+    \item Administré y formé parte del equipo de desarrollo del sitio para la publicación de material de apoyo y libros digitales. Sitio basado en Plone.
+    \item Desarrollé un sistema de registro de capacitación magisterial, diseñado para la DGENAM. Hecho con Django y MySQL.
+\end{rSubsection}
+
+%------------------------------------------------
+
+% \begin{rSubsection}{}{Julio 2008 - Julio 2012}{Web Developer}{}
+% \item Diseñé e implementé sistema para crear contenido independiente del aspecto visual usando la especificación DITA (xml), XSLT, HTML, CSS, Javascript.
+% \item Desarrollé sistema para crear ejercicios de tipo: Selección simple, selección múltiple, arrastrar y soltar, relación de columnas. Con integración en paquetes SCORM 1.2.
+% \item Desarrollé objetos virtuales de aprendizaje y simuladores como apoyo al contenido de diferentes libros: métodos de ordenamiento, Máquina de turing, grafos,  álgebra booleana,  árboles,
+        % complejidad computacional, conjuntos, algoritmo de fleury,  máquina de estado finito,  motor de inducción polifásico, sistemas numéricos. Todos desarrollados usando ActionScript3
+% \end{rSubsection}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+%\begin{rSection}{Technical Strengths}
+%
+%\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+%Computer Languages & Prolog, Haskell, AWK, Erlang, Scheme, ML \\
+%Protocols \& APIs & XML, JSON, SOAP, REST \\
+%Databases & MySQL, PostgreSQL, Microsoft SQL \\
+%Tools & SVN, Vim, Emacs
+%\end{tabular}
+%
+%\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Educación}
+
+{\bf Escuela Superior de Cómputo. IPN} \hfill {\em Junio 2012} \\
+Ingeniería en Sistemas Computacionales \\
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EXAMPLE SECTION
+%----------------------------------------------------------------------------------------
+
+%\begin{rSection}{Section Name}
+
+%Section content\ldots
+
+%\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
